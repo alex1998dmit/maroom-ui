@@ -1,0 +1,183 @@
+// types:
+const boolVal: boolean = false;
+const int: number = 42;
+const float: number = 43.5;
+const num: number = 32;
+const message: string = "Hello Typescript";
+const numberArray: number[] = [1,1,1,1,3];
+const numberArray2: Array<number> = [1,2,2,2,2,];
+const words: string[] = ['Hello', 'Typescript'];
+// Tuple
+const contract: [string, number] = ['alex', 23];
+// any
+let vari: any = 42;
+vari = 'dsad';
+
+// functions
+function sayMyName(name: string): void {
+    console.log(name)
+}
+// never
+function throwError(message: string): never {
+    throw new Error(message);
+}
+
+// function with interface
+interface MyPosition {
+    x: number | undefined
+    y: number | undefined
+}
+
+interface MyPositionDefault extends  MyPosition {
+    default: string
+}
+
+function position(): MyPosition
+function position(a: number): MyPositionDefault
+function position(a: number, b: number): MyPosition
+
+function position(a?:number, b?:number) {
+    if (!a && !b) {
+        return { x: undefined, y: undefined }
+    }
+
+    if (a && !b) {
+        return {x: a, y: undefined, default: a.toString()}
+    }
+
+    return {x: a, y: b}
+}
+
+//Type
+type Login = string;
+const login: Login = 'admin';
+const login2: Login = 2;
+// type id is string or number
+type ID = string | number;
+const id = 3;
+const id = 'string';
+
+//--------------------------------------------
+// interfaces
+
+interface Rect {
+    readonly  id: string,
+    color?: string,
+    size: {
+        width: number,
+        height: number
+    }
+}
+const rect1: Rect = {
+    id: '1234',
+    size: {
+        width: 20,
+        height: 30,
+    }
+}
+
+const rect3 = {} as Rect;
+const react4 = <Rect>{};
+
+// extends
+interface  ReactWithArea extends Rect {
+    getArea: () => number
+}
+
+const rect5: ReactWithArea = {
+    id: '123',
+    size: {
+        width: 20,
+        height: 20,
+    },
+    getArea():number {
+        return this.size.width * this.size.height
+    }
+}
+// class emplements
+
+interface IClock {
+    time: Date,
+    setTime: (data: Data) => void
+};
+
+class Clock implements IClock {
+    time: Date = new Date();
+
+    setTime(date: Date): void {
+        this.time = date
+    }
+}
+
+//
+interface Styles {
+    [key: string]: string
+};
+
+const css: Styles = {
+    borderRadius: '16px',
+};
+
+// enums
+enum Membership {
+    Simple,
+    Standard,
+    Premium
+};
+
+const membership = Membership.Premium // 2
+const membershipReverse = Membership[2]; // Premium
+
+enum SocialMedia {
+    VK = 'VK',
+    FACEBOOK = 'FACEBOOK',
+    INSTAGRAMM = 'INSTAGRAM'
+}
+
+// classes
+class TypeScript {
+    version: string
+
+    constructor(version: string) {
+        this.version = version;
+    }
+
+    info(name: string) {
+        return name;
+    }
+}
+
+// identies classes
+class Car {
+    readonly model: string
+    readonly number: number = 4
+
+    constructor(theModel: string) {
+        this.model = theModel
+    }
+}
+
+class CarCopy {
+    readonly number: number = 4
+    constructor(readonly model: string) {}
+}
+
+// modificators
+
+// abstract class
+abstract  class Component {
+    abstract render(): void
+    abstract info(): string
+}
+
+class AppComponent extends Component {
+    render(): void {
+        console.log('noting')
+        return
+    }
+    info(): string {
+        return 'hello'
+    }
+}
+
+//guards
