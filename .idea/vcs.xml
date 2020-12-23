@@ -2,8 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../belle" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../maroom-hackaton" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../maroom-ui-kit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/maroom-ui-kit" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../maroom-web" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../maroom-web-promo" vcs="Git" />
   </component>

@@ -5,47 +5,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60c95698-6a8a-45ec-9e46-9bae7abed497" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Input/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/colors.ts" afterDir="false" />
+      <change afterPath="$USER_HOME$/maroom-admin/src/store/Auth.ts" afterDir="false" />
+      <change afterPath="$USER_HOME$/maroom-admin/src/store/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Heading/Heading.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Heading/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Text/Text.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Text/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ValidationError/ValidationError.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ValidationError/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/CloseInCircleIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/Plus.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/theme/index.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/theme/typography.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/types/theme.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/types/useForm.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts-tips.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maroom-web-promo/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maroom-web-promo/__tests__/roistat.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maroom-web-promo/env-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maroom-web-promo/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maroom-web-promo/jest.setup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maroom-admin/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../maroom-admin/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maroom-admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maroom-admin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maroom-admin/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../maroom-admin/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maroom-admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../maroom-admin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maroom-admin/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../maroom-admin/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maroom-admin/src/components/ui/Input/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/../maroom-admin/src/components/ui/Input/Input.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maroom-admin/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../maroom-admin/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maroom-admin/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../maroom-admin/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maroom-hackaton/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../maroom-hackaton/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maroom-web-promo/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/../maroom-web-promo/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maroom-web-promo/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../maroom-web-promo/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maroom-web-promo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../maroom-web-promo/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maroom-web-promo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../maroom-web-promo/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maroom-web-promo/pages/api/recall_me.js" beforeDir="false" afterPath="$PROJECT_DIR$/../maroom-web-promo/pages/api/recall_me.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maroom-web-promo/pages/api/roistat.js" beforeDir="false" afterPath="$PROJECT_DIR$/../maroom-web-promo/pages/api/roistat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maroom-web-promo/utils/functions/amo/generate_request_objects.js" beforeDir="false" afterPath="$PROJECT_DIR$/../maroom-web-promo/utils/functions/amo/generate_request_objects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maroom-web-promo/utils/functions/amo/refresh_token.js" beforeDir="false" afterPath="$PROJECT_DIR$/../maroom-web-promo/utils/functions/amo/refresh_token.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maroom-web-promo/utils/functions/roistat/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../maroom-web-promo/utils/functions/roistat/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maroom-web/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../maroom-web/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/theme.ts" afterDir="false" />
+      <change afterPath="$USER_HOME$/maroom-web-promo/.babelrc" afterDir="false" />
+      <change afterPath="$USER_HOME$/maroom-web-promo/__tests__/roistat.test.js" afterDir="false" />
+      <change afterPath="$USER_HOME$/maroom-web-promo/env-config.js" afterDir="false" />
+      <change afterPath="$USER_HOME$/maroom-web-promo/jest.config.js" afterDir="false" />
+      <change afterPath="$USER_HOME$/maroom-web-promo/jest.setup.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/maroom-admin/.eslintcache" beforeDir="false" afterPath="$USER_HOME$/maroom-admin/.eslintcache" afterDir="false" />
+      <change beforePath="$USER_HOME$/maroom-admin/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/maroom-admin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/maroom-admin/package-lock.json" beforeDir="false" afterPath="$USER_HOME$/maroom-admin/package-lock.json" afterDir="false" />
+      <change beforePath="$USER_HOME$/maroom-admin/package.json" beforeDir="false" afterPath="$USER_HOME$/maroom-admin/package.json" afterDir="false" />
+      <change beforePath="$USER_HOME$/maroom-admin/src/App.js" beforeDir="false" afterPath="$USER_HOME$/maroom-admin/src/App.tsx" afterDir="false" />
+      <change beforePath="$USER_HOME$/maroom-admin/src/components/ui/Input/Input.js" beforeDir="false" afterPath="$USER_HOME$/maroom-admin/src/components/ui/Input/Input.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/maroom-admin/src/forms/SignIn/SignInForm.js" beforeDir="false" afterPath="$USER_HOME$/maroom-admin/src/forms/SignIn/SignInForm.tsx" afterDir="false" />
+      <change beforePath="$USER_HOME$/maroom-admin/src/index.css" beforeDir="false" afterPath="$USER_HOME$/maroom-admin/src/index.css" afterDir="false" />
+      <change beforePath="$USER_HOME$/maroom-admin/src/index.js" beforeDir="false" afterPath="$USER_HOME$/maroom-admin/src/index.tsx" afterDir="false" />
+      <change beforePath="$USER_HOME$/maroom-admin/src/pages/signin/SignInPage.js" beforeDir="false" afterPath="$USER_HOME$/maroom-admin/src/pages/signin/SignInPage.tsx" afterDir="false" />
+      <change beforePath="$USER_HOME$/maroom-admin/src/routes/routes.js" beforeDir="false" afterPath="$USER_HOME$/maroom-admin/src/routes/routes.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/maroom-hackaton/.eslintcache" beforeDir="false" afterPath="$USER_HOME$/maroom-hackaton/.eslintcache" afterDir="false" />
+      <change beforePath="$USER_HOME$/maroom-hackaton/src/App.js" beforeDir="false" afterPath="$USER_HOME$/maroom-hackaton/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/maroom-ui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/maroom-ui.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Input/Input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Input/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/colors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/typography.js" beforeDir="false" />
+      <change beforePath="$USER_HOME$/maroom-web-promo/.eslintrc.json" beforeDir="false" afterPath="$USER_HOME$/maroom-web-promo/.eslintrc.json" afterDir="false" />
+      <change beforePath="$USER_HOME$/maroom-web-promo/README.md" beforeDir="false" afterPath="$USER_HOME$/maroom-web-promo/README.md" afterDir="false" />
+      <change beforePath="$USER_HOME$/maroom-web-promo/next.config.js" beforeDir="false" afterPath="$USER_HOME$/maroom-web-promo/next.config.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/maroom-web-promo/package-lock.json" beforeDir="false" afterPath="$USER_HOME$/maroom-web-promo/package-lock.json" afterDir="false" />
+      <change beforePath="$USER_HOME$/maroom-web-promo/package.json" beforeDir="false" afterPath="$USER_HOME$/maroom-web-promo/package.json" afterDir="false" />
+      <change beforePath="$USER_HOME$/maroom-web-promo/pages/api/recall_me.js" beforeDir="false" afterPath="$USER_HOME$/maroom-web-promo/pages/api/recall_me.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/maroom-web-promo/pages/api/roistat.js" beforeDir="false" afterPath="$USER_HOME$/maroom-web-promo/pages/api/roistat.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/maroom-web-promo/utils/functions/amo/generate_request_objects.js" beforeDir="false" afterPath="$USER_HOME$/maroom-web-promo/utils/functions/amo/generate_request_objects.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/maroom-web-promo/utils/functions/amo/refresh_token.js" beforeDir="false" afterPath="$USER_HOME$/maroom-web-promo/utils/functions/amo/refresh_token.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/maroom-web-promo/utils/functions/roistat/index.js" beforeDir="false" afterPath="$USER_HOME$/maroom-web-promo/utils/functions/roistat/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +73,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -73,23 +93,29 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../belle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/icons" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$USER_HOME$/maroom-ui-kit/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../maroom-web/public" />
-      <recent name="$PROJECT_DIR$/src/Input" />
+      <recent name="$PROJECT_DIR$/src/icons" />
+      <recent name="$USER_HOME$/maroom-ui-kit/src" />
+      <recent name="$USER_HOME$/maroom-ui-kit/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/icons" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$USER_HOME$/maroom-ui-kit/src/icons" />
+      <recent name="$USER_HOME$/maroom-ui-kit/src" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/Input" />
-      <recent name="$PROJECT_DIR$/../maroom-web-promo" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -104,7 +130,8 @@
       <workItem from="1608273769707" duration="14712000" />
       <workItem from="1608396154124" duration="10236000" />
       <workItem from="1608454184754" duration="11883000" />
-      <workItem from="1608551511543" duration="4948000" />
+      <workItem from="1608551511543" duration="47012000" />
+      <workItem from="1608722362140" duration="2230000" />
     </task>
     <servers />
   </component>
@@ -122,5 +149,15 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/App.tsx</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

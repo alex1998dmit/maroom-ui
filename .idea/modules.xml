@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../belle/.idea/belle.iml" filepath="$PROJECT_DIR$/../belle/.idea/belle.iml" />
       <module fileurl="file://$PROJECT_DIR$/../maroom-admin/.idea/maroom-admin.iml" filepath="$PROJECT_DIR$/../maroom-admin/.idea/maroom-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../maroom-hackaton/.idea/maroom-hackaton.iml" filepath="$PROJECT_DIR$/../maroom-hackaton/.idea/maroom-hackaton.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/maroom-ui.iml" filepath="$PROJECT_DIR$/.idea/maroom-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../maroom-ui-kit/.idea/maroom-ui-kit.iml" filepath="$PROJECT_DIR$/../maroom-ui-kit/.idea/maroom-ui-kit.iml" />
       <module fileurl="file://$PROJECT_DIR$/../maroom-web/.idea/maroom-web.iml" filepath="$PROJECT_DIR$/../maroom-web/.idea/maroom-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/../maroom-web-promo/.idea/maroom-web-promo.iml" filepath="$PROJECT_DIR$/../maroom-web-promo/.idea/maroom-web-promo.iml" />
     </modules>

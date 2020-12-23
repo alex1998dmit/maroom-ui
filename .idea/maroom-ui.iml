@@ -12,6 +12,6 @@
     <orderEntry type="module" module-name="maroom-web-promo" />
     <orderEntry type="module" module-name="maroom-web" />
     <orderEntry type="module" module-name="maroom-hackaton" />
-    <orderEntry type="module" module-name="belle" />
+    <orderEntry type="module" module-name="maroom-ui-kit" />
   </component>
 </module>
