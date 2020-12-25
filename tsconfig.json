@@ -26,10 +26,18 @@
   },
   "baseUrl": "./",
   "paths": {
-    "@maroom-ui/components": ["./src/components"],
-    "@maroom-ui/components/*": ["./src/components/*"],
-    "@maroom-ui/icons": ["./src/icons"],
-    "@maroom-ui/theme": ["./src/theme"]
+    "@maroom-ui/components": [
+      "./src/components"
+    ],
+    "@maroom-ui/components/*": [
+      "./src/components/*"
+    ],
+    "@maroom-ui/icons": [
+      "./src/icons"
+    ],
+    "@maroom-ui/theme": [
+      "./src/theme"
+    ]
   },
   "include": [
     "src"

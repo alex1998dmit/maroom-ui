@@ -1,14 +1,22 @@
 import {createMuiTheme, ThemeProvider} from '@material-ui/core/styles'
 import theme from "./theme"
-import Input, {inputTypes} from './components/Input'
+import {
+  Input,
+  Button,
+  Text,
+  TextSizes,
+  InputTypes,
+  Heading,
+  HeadingWeights,
+  ButtonSizes,
+  ButtonThemes
+} from './dist'
+import { HeadingSizes } from './dist'
 import {Container, Grid} from "@material-ui/core"
 import './App.css'
-import Heading, {HeadingSizes, HeadingWeights} from "./components/Heading";
-import Text, {TextSizes} from "./components/Text";
-import Button, {ButtonSizes, ButtonThemes} from "./components/Button";
 import Plus from "./icons/Plus";
-
-console.log(theme)
+import React from 'react'
+import {useForm} from "react-hook-form";
 
 const appTheme = createMuiTheme({
   palette: theme.colors,
@@ -16,6 +24,7 @@ const appTheme = createMuiTheme({
 });
 
 function App() {
+  const form = useForm();
   return (
     <ThemeProvider theme={appTheme}>
       <Container>
@@ -24,13 +33,14 @@ function App() {
             <Heading size={HeadingSizes.h1}>UI-kit</Heading>
           </Grid>
           <Grid item xs={12} md={4}>
-            <Input name='username' label='Username' />
+            <Input name='username' label='Username' inputRef={form.register} />
+            {form.watch('username')}
           </Grid>
           <Grid item xs={12} md={4}>
-            <Input name='email' type={inputTypes.email} label='Email' error />
+            <Input name='email' label='Email' error />
           </Grid>
           <Grid item xs={12} md={4}>
-            <Input name='password' type={inputTypes.password} label='Password' />
+            <Input name='password' type={InputTypes.password} label='Password' />
           </Grid>
         </Grid>
         <hr/>
